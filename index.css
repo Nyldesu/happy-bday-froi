@@ -126,7 +126,7 @@ video.proy-vid
 
   nav ul
   {
-    font-size: 40px;
+    font-size: 30px;
     position: relative;
     bottom: 95px; left: 100px;
     width: 50%;
@@ -138,7 +138,7 @@ video.proy-vid
     width: 350px;
     height: 350px;
     position: relative;
-    left: 0%;
+    left: 2.5%;
     top: 175px;
   }
 
