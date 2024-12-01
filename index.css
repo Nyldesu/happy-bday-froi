@@ -128,7 +128,7 @@ video.proy-vid
   {
     font-size: 40px;
     position: relative;
-    bottom: 95px; left: 125px;
+    bottom: 95px; left: 100px;
     width: 50%;
     justify-content: space-evenly;
   }
@@ -138,7 +138,7 @@ video.proy-vid
     width: 350px;
     height: 350px;
     position: relative;
-    left: 5%;
+    left: 0%;
     top: 175px;
   }
 
