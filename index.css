@@ -126,9 +126,10 @@ video.proy-vid
 
   nav ul
   {
-    font-size: 30px;
+    font-size: 40px;
     position: relative;
-    bottom: 95px; left: 100px;
+    bottom: 95px; 
+    left: 100px;
     width: 50%;
     justify-content: space-evenly;
   }
@@ -138,8 +139,10 @@ video.proy-vid
     width: 350px;
     height: 350px;
     position: relative;
-    left: 2.5%;
     top: 175px;
+    margin: 0 auto; /* Centers horizontally */
+    display: block; /* Makes margin:auto effective */
+    left: 0; /* Override previous left positioning */
   }
 
   .img-bg
