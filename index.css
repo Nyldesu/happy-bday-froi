@@ -1,0 +1,205 @@
+*
+{
+  margin: 0;
+  padding: 0;
+  box-sizing: border-box;
+}
+
+.img-bg
+{
+  position: absolute;
+  top: 150px;
+  left: 0;
+  width: 100%;
+  height: 100%;
+  object-fit: cover;
+  z-index: -1;
+}
+
+header
+{
+  background-color: black;
+  overflow: hidden;
+  width: 100%;
+  height: 150px;
+  z-index: 1;
+}
+
+.teko {
+  font-family: "Teko", serif;
+  font-weight: 100;
+  font-style: normal;
+}
+
+div.img-cntr
+{
+  overflow: hidden;
+  height: 100%;
+  width: 10%;
+}
+
+img.proy1
+{
+  height: 100%;
+  width: 100%;
+  object-fit: cover;
+}
+
+nav ul {
+  list-style: none;
+  padding: 0;
+  display: flex;
+  flex-direction: row;
+  color: black;
+  width: 100%;
+  color: white;
+  position: relative;
+  bottom: 140px; left: 0%;
+  font-size: 100%;
+  font-size: 100px;
+}
+
+nav li {
+  padding: 5px;
+  background-color: transparent;
+  margin: 5px 0;
+  position: relative;
+}
+
+.w1
+{
+  animation: w1 infinite 1s ease;
+}
+
+.w2
+{
+  animation: w2 infinite 1s ease;
+}
+
+.w3
+{
+  animation: w3 infinite 1s ease;
+}
+
+@keyframes w1 
+{
+  0%{color: red; position: relative; bottom: 10px;}
+  50%{color: green; position: relative; bottom: 0px;}
+  100%{color: blue; position: relative; bottom: 10px;}
+}
+
+@keyframes w2 
+{
+  0%{color: green; position: relative; bottom: 0px;}
+  50%{color: blue; position: relative; bottom: 10px;}
+  100%{color: red; position: relative; bottom: 0px;}
+}
+
+@keyframes w3
+{
+  0%{color: blue; position: relative; bottom: 10    px;}
+  50%{color: red; position: relative; bottom: 0px;}
+  100%{color: green; position: relative; bottom: 10px;}
+}
+
+video.proy-vid
+{
+  position: relative;
+  left: 33%; top: 120px;
+  border: 3px solid black;
+  border-radius: 20px;
+  z-index: 0;
+}
+
+@media (max-width: 600px)
+{
+  header
+  {
+    height: 100px;
+  }
+
+  div.img-cntr
+  {
+    height: 115%;
+    width: 25%;
+  }
+
+  nav ul
+  {
+    font-size: 40px;
+    position: relative;
+    bottom: 95px; left: 125px;
+    width: 50%;
+    justify-content: space-evenly;
+  }
+
+  video.proy-vid
+  {
+    width: 350px;
+    height: 350px;
+    position: relative;
+    left: 14%;
+    top: 175px;
+  }
+
+  .img-bg
+  {
+    position: absolute;
+    top: 100px;
+  }
+}
+
+@media (min-width: 601px) and (max-width: 1024px)
+{
+  header
+  {
+    height: 125px;
+  }
+
+  div.img-cntr
+  {
+    height: 100%;
+    width: 15%;
+  }
+
+  nav ul
+  {
+    font-size: 70px;
+    position: relative;
+    bottom: 115px; left: 160px;
+    width: 70%;
+    justify-content: center;
+  }
+
+  video.proy-vid
+  {
+    width: 400px;
+    height: 400px;
+    position: relative;
+    left: 29%;
+    top: 150px;
+  }
+
+  .img-bg
+  {
+    position: absolute;
+    top: 125px;
+  }
+}
+
+@media (min-width: 1025px)
+{
+  nav ul 
+  {
+    flex-direction: row;
+    justify-content: space-evenly;
+  }
+  
+  nav li 
+  {
+    margin: 0;
+  }
+}    
+
+
+
